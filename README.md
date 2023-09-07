@@ -43,7 +43,9 @@ Resolução:
 <img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="460" heigth="460"/>
 
 ![Diagrama EER - Refinado](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Refinado.mwb)
-![Script SQL](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/Oficina-SQL_Create_Script.sql) 
+
+![Script SQL - Schema](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/Oficina-SQL_Create_Script.sql)
+
 
 
 ## Desafio 2
