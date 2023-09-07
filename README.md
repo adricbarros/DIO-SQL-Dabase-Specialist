@@ -5,6 +5,10 @@ Repositório com as resoluções dos desafios de projeto e desafios de código d
 
 <img src="images\SQL Specialist Logo.webp" align='center' alt="drawing" width="250" heigth="250"/>
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Wanderson-Fer/AutoWorkshop---SQL---DIO-Challenge?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Wanderson-Fer/AutoWorkshop---SQL---DIO-Challenge?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Wanderson-Fer/AutoWorkshop---SQL---DIO-Challenge?style=for-the-badge)
+
 ## Sobre:
 
 Detalhes da formação
@@ -31,14 +35,14 @@ Modelo Fornecido:
 
 <img src="DP1/Diagrama_EER-Ecommerce_Fornecido.png" align='center' alt="drawing" width="460" heigth="460"/>
 
-![Diagrama EER](dp1/E-commerce - Original.mwb)
+[Diagrama EER] (dp1/E-commerce - Original.mwb)
 
 
 Resolução:
 
 <img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="460" heigth="460"/>
 
-![Diagrama EER](dp1/E-commerce - Refinado.mwb)
+[Diagrama EER] (dp1/E-commerce - Refinado.mwb)
   
 
 ## Desafio 2
