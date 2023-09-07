@@ -15,9 +15,9 @@ Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de
 
 Atividades:
 
-    Desafio de Código: Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.
+    * Desafio de Código: Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.
 
-    Desafio de Projeto: Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
+    * Desafio de Projeto: Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
 
 ## Desafio 1
 
@@ -34,4 +34,4 @@ Modelo Fornecido:
 
 Resolução:
 
-<img src="DP1/Diagrama_EER-Ecommerce_Refinado.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="250" heigth="250"/>
