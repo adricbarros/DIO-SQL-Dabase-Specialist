@@ -30,8 +30,8 @@ Refine o modelo apresentado acrescentando os seguintes pontos:
 
 Modelo Fornecido:
 
-<img src="DP1/Diagrama_EER-Ecommerce_Fornecido.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="DP1/Diagrama_EER-Ecommerce_Fornecido.png" align='center' alt="drawing" width="323" heigth="323"/>
 
 Resolução:
 
-<img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="250" heigth="250"/>
+<img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="323" heigth="323"/>
