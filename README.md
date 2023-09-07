@@ -30,11 +30,13 @@ Refine o modelo apresentado acrescentando os seguintes pontos:
 Modelo Fornecido:
 
 <img src="DP1/Diagrama_EER-Ecommerce_Fornecido.png" align='center' alt="drawing" width="460" heigth="460"/>
+* **Desafio de Projeto**: [MySQL Workbench Document] (https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Original.mwb);
 
 Resolução:
 
 <img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="460" heigth="460"/>
-
+* **Desafio de Projeto**: [MySQL Workbench Document] (https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Refinado.mwb);
+  
 ## Desafio 2
 
 Criar um esquema conceitual do zero. 
