@@ -20,14 +20,14 @@ Refine o modelo apresentado acrescentando os seguintes pontos:
 
 Modelo Fornecido:
 
-<img src="DP1/Diagrama_EER-Ecommerce_Fornecido.png" align='center' alt="drawing" width="460" heigth="460"/>
+<img src="Diagrama_EER-Ecommerce_Fornecido.png" align='center' alt="drawing" width="460" heigth="460"/>
 
 ![Diagrama EER - Original](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Original.mwb)
 
 
 Resolução:
 
-<img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="460" heigth="460"/>
+<img src="Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="460" heigth="460"/>
 
 ![Diagrama EER - Refinado](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Refinado.mwb)
 
