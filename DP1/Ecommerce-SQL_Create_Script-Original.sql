@@ -8,19 +8,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema oficina
+-- Schema ecommerce
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema oficina
+-- Schema ecommerce
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `oficina` DEFAULT CHARACTER SET utf8 ;
-USE `oficina` ;
+CREATE SCHEMA IF NOT EXISTS `ecommerce` DEFAULT CHARACTER SET utf8 ;
+USE `ecommerce` ;
 
 -- -----------------------------------------------------
--- Table `oficina`.`Cliente`
+-- Table `ecommerce`.`Cliente`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Cliente` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Cliente` (
   `idCliente` INT NOT NULL,
   `Nome` VARCHAR(45) NULL,
   `Identificação` VARCHAR(45) NULL,
@@ -30,9 +30,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Pedido`
+-- Table `ecommerce`.`Pedido`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Pedido` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Pedido` (
   `idPedido` INT NOT NULL,
   `Status` VARCHAR(45) NULL,
   `Descrição` VARCHAR(45) NULL,
@@ -42,16 +42,16 @@ CREATE TABLE IF NOT EXISTS `oficina`.`Pedido` (
   INDEX `fk_Pedido_Cliente1_idx` (`Cliente_idCliente` ASC) VISIBLE,
   CONSTRAINT `fk_Pedido_Cliente1`
     FOREIGN KEY (`Cliente_idCliente`)
-    REFERENCES `oficina`.`Cliente` (`idCliente`)
+    REFERENCES `ecommerce`.`Cliente` (`idCliente`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Produto`
+-- Table `ecommerce`.`Produto`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Produto` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Produto` (
   `idProduto` INT NOT NULL,
   `Categoria` VARCHAR(45) NULL,
   `Descrição` VARCHAR(45) NULL,
@@ -61,9 +61,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Fornecedor`
+-- Table `ecommerce`.`Fornecedor`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Fornecedor` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Fornecedor` (
   `idFornecedor` INT NOT NULL,
   `Razao Social` VARCHAR(45) NULL,
   `CNPJ` VARCHAR(45) NULL,
@@ -73,9 +73,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Disponibilizando um produto`
+-- Table `ecommerce`.`Disponibilizando um produto`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Disponibilizando um produto` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Disponibilizando um produto` (
   `Fornecedor_idFornecedor` INT NOT NULL,
   `Produto_idProduto` INT NOT NULL,
   PRIMARY KEY (`Fornecedor_idFornecedor`, `Produto_idProduto`),
@@ -83,21 +83,21 @@ CREATE TABLE IF NOT EXISTS `oficina`.`Disponibilizando um produto` (
   INDEX `fk_Fornecedor_has_Produto_Fornecedor_idx` (`Fornecedor_idFornecedor` ASC) VISIBLE,
   CONSTRAINT `fk_Fornecedor_has_Produto_Fornecedor`
     FOREIGN KEY (`Fornecedor_idFornecedor`)
-    REFERENCES `oficina`.`Fornecedor` (`idFornecedor`)
+    REFERENCES `ecommerce`.`Fornecedor` (`idFornecedor`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Fornecedor_has_Produto_Produto1`
     FOREIGN KEY (`Produto_idProduto`)
-    REFERENCES `oficina`.`Produto` (`idProduto`)
+    REFERENCES `ecommerce`.`Produto` (`idProduto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Estoque`
+-- Table `ecommerce`.`Estoque`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Estoque` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Estoque` (
   `idEstoque` INT NOT NULL,
   `Local` VARCHAR(45) NULL,
   PRIMARY KEY (`idEstoque`))
@@ -105,9 +105,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Produto_has_Estoque`
+-- Table `ecommerce`.`Produto_has_Estoque`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Produto_has_Estoque` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Produto_has_Estoque` (
   `Produto_idProduto` INT NOT NULL,
   `Estoque_idEstoque` INT NOT NULL,
   `Quantidade` INT NULL,
@@ -116,21 +116,21 @@ CREATE TABLE IF NOT EXISTS `oficina`.`Produto_has_Estoque` (
   INDEX `fk_Produto_has_Estoque_Produto1_idx` (`Produto_idProduto` ASC) VISIBLE,
   CONSTRAINT `fk_Produto_has_Estoque_Produto1`
     FOREIGN KEY (`Produto_idProduto`)
-    REFERENCES `oficina`.`Produto` (`idProduto`)
+    REFERENCES `ecommerce`.`Produto` (`idProduto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Produto_has_Estoque_Estoque1`
     FOREIGN KEY (`Estoque_idEstoque`)
-    REFERENCES `oficina`.`Estoque` (`idEstoque`)
+    REFERENCES `ecommerce`.`Estoque` (`idEstoque`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Relação Produto/Pedido`
+-- Table `ecommerce`.`Relação Produto/Pedido`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Relação Produto/Pedido` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Relação Produto/Pedido` (
   `Produto_idProduto` INT NOT NULL,
   `Pedido_idPedido` INT NOT NULL,
   `Quantidade` INT NULL,
@@ -139,21 +139,21 @@ CREATE TABLE IF NOT EXISTS `oficina`.`Relação Produto/Pedido` (
   INDEX `fk_Produto_has_Pedido_Produto1_idx` (`Produto_idProduto` ASC) VISIBLE,
   CONSTRAINT `fk_Produto_has_Pedido_Produto1`
     FOREIGN KEY (`Produto_idProduto`)
-    REFERENCES `oficina`.`Produto` (`idProduto`)
+    REFERENCES `ecommerce`.`Produto` (`idProduto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Produto_has_Pedido_Pedido1`
     FOREIGN KEY (`Pedido_idPedido`)
-    REFERENCES `oficina`.`Pedido` (`idPedido`)
+    REFERENCES `ecommerce`.`Pedido` (`idPedido`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Terceiro - Vendedor`
+-- Table `ecommerce`.`Terceiro - Vendedor`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Terceiro - Vendedor` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Terceiro - Vendedor` (
   `idTerceiro - Vendedor` INT NOT NULL,
   `Razao Social` VARCHAR(45) NULL,
   `Local` VARCHAR(45) NULL,
@@ -162,9 +162,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `oficina`.`Produtos por Vendedor (Terceiro)`
+-- Table `ecommerce`.`Produtos por Vendedor (Terceiro)`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `oficina`.`Produtos por Vendedor (Terceiro)` (
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Produtos por Vendedor (Terceiro)` (
   `Terceiro - Vendedor_idTerceiro - Vendedor` INT NOT NULL,
   `Produto_idProduto` INT NOT NULL,
   `Quantidade` INT NULL,
@@ -173,12 +173,12 @@ CREATE TABLE IF NOT EXISTS `oficina`.`Produtos por Vendedor (Terceiro)` (
   INDEX `fk_Terceiro - Vendedor_has_Produto_Terceiro - Vendedor1_idx` (`Terceiro - Vendedor_idTerceiro - Vendedor` ASC) VISIBLE,
   CONSTRAINT `fk_Terceiro - Vendedor_has_Produto_Terceiro - Vendedor1`
     FOREIGN KEY (`Terceiro - Vendedor_idTerceiro - Vendedor`)
-    REFERENCES `oficina`.`Terceiro - Vendedor` (`idTerceiro - Vendedor`)
+    REFERENCES `ecommerce`.`Terceiro - Vendedor` (`idTerceiro - Vendedor`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Terceiro - Vendedor_has_Produto_Produto1`
     FOREIGN KEY (`Produto_idProduto`)
-    REFERENCES `oficina`.`Produto` (`idProduto`)
+    REFERENCES `ecommerce`.`Produto` (`idProduto`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
