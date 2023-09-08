@@ -1,7 +1,7 @@
 
 # DIO - Formação SQL Specialist
 
-Repositório com as resoluções dos desafios de projeto e desafios de código da formação SQL Specialist da Digital Inovation One - DIO.
+Repositório com a resolução do Desafio: Projeto Lógico de Banco de Dados do Zero.
 
 <img src="images\banner-de-mecanico-foto.jpg" align='center' alt="drawing" width="1680" heigth="640"/>
 
@@ -9,21 +9,8 @@ Repositório com as resoluções dos desafios de projeto e desafios de código d
 ![GitHub language count](https://img.shields.io/github/languages/count/adricbarros/DIO-SQL-Database-Specialist?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/adricbarros/DIO-SQL-Database-Specialist?style=for-the-badge)
 
-## Sobre:
 
-Detalhes da formação
-
-Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.
-
-⚠️Pré-requisitos: Conhecimentos básicos em Lógica de Programação e Pensamento Computacional são muito bem-vindos!
-
-Atividades:
-
-* Desafio de Código: Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.
-* Desafio de Projeto: Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
-
-
-## Desafio 2
+## Objetivo:
 
 Criar um esquema conceitual do zero. 
 A partir da narrativa fornecida criar todas as entidades, relacionamentos e atributos. Caso encontre algo que não foi definido na narrativa, utilize a sua compreensão do contexto e deixe uma descrição no README do seu github para verificação.
