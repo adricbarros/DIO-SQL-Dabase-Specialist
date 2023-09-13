@@ -72,7 +72,11 @@ OBSERVAÇÕES:
 1 - Este projeto não contempla todas as entidades e relacionamentos necessários para uso em um cenário real, atendo-se ao cumprimento do contexto fornecido para execução do projeto, sendo assim, não foram abordados de forma aprofundada as entidades, funcionalidades e relacionamentos de controle de estoque, financeiro, pessoal e etc.
 <br />
 2 - Em um cenário real, é possível a atuação de mais de uma equipe de mecânicos numa OS, como por exemplo em caso de colisões, onde serviços mecânicos, elétricos, de funilaria e pintura são utilizados, e que em virtude da natureza dos serviços são desempenhados por equipes de profissionais distintas. Entretanto, foi utilizado o contexto fornecido no desenvolvimento do esquema lógico.
- 
- 
+
+
+## Source Files:
+  
 ![SQL Create Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/693ee4edae7a77c6571789ea09241c405e2cde3f/DP2/src/SQL_Create_Script-Oficina.sql)
+
+![Diagram EER - Enhanced Entity Relationship](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/66b7d8215fe1f7b580df8b3991df008bfa28ef5a/DP2/src/Diagrama%20EER%20-%20Oficina%20v2.0.mwb)
 
