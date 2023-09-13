@@ -48,14 +48,22 @@ Narrativa:
 
 Conforme interpretação do contexto fornecido, as seguintes convenções foram consideradas no Modelo Relacional:
 
-- Os clientes podem ser pessoa física ou jurídica, devendo a aplicação tratar o dado fornecido (CPF ou CNPJ) de acordo com a quantidade de caracteres.
+- Os clientes podem ser pessoa física ou jurídica, devendo a aplicação tratar o dado (CPF ou CNPJ) de acordo com a quantidade de caracteres inseridos (11 ou 14) respectivamente.
 - O Cliente abre uma Ordem de Serviço, que é encaminhada a uma equipe responsável.
 - A equipe responsável avalia os itens necessários para o atendimento.
 - A equipe lança as peças e serviços que irão compor o valor da OS e apresenta ao cliente.
+- A OS possui data de abertura, data do prazo de entrega e data da entrega, para melhor controle do cumprimento dos prazos pelas equipes.
 - O Cliente autoriza a execução, caso contrário a OS é cancelada.
-- Orçamento não são cobrados, conforme preconiza o Código de Defesa do Consumidor.
+- Orçamentos não são cobrados, conforme preconiza o Código de Defesa do Consumidor.
+- A OS possui 6 Status pré definidos:
+     Em Aberto: Está aguardando orçamento e posterior autorização do cliente.
+     Cancelada: Cliente não autorizou o serviço.
+     Autorizada: Serviço autorizado, porém ainda não iniciado.
+     Em execução: Serviço em andamento após autorização do cliente.
+     Fechada: Serviço concluído e aguardando faturamento.
+     Faturada: Cliente efetuou o pagamento e Nota Fiscal foi emitida.    
 - As equipes possuem 2 mecânicos, sendo que um mecânico só pode atuar em uma só equipe.
 - Os nomes das equipes são únicos.
 - Os dados de cadastro dos mecânicos são resgatados através do relacionamento entre as entidades Equipe e Funcionários.
-- Os dados dos produtos e serviços são resgatados através do relacionamento entre as entidades Ordem de Serviço, Produtos e Serviços.
+- Os dados dos produtos e serviços que compoem a OS são resgatados através do relacionamento entre as entidades Ordem de Serviço, Produtos e Serviços.
 
