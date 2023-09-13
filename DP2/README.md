@@ -75,3 +75,5 @@ OBSERVAÇÕES:
  
  
 ![SQL Create Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/304c965ecfa01ce42f709152ae526f814b4bb65d/DP2/src/SQL%20Create%20Script%20-%20Oficina.sql)
+
+
