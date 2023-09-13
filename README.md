@@ -31,21 +31,8 @@ Refine o modelo apresentado acrescentando os seguintes pontos:
    * Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
    * Entrega – Possui status e código de rastreio;
 
-Modelo Fornecido:
 
-<img src="DP1/Diagrama_EER-Ecommerce_Fornecido.png" align='center' alt="drawing" width="460" heigth="460"/>
-
-![Diagrama EER - Original](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Original.mwb)
-
-
-Resolução:
-
-<img src="DP1/Diagrama_EER-Ecommerce_refinado.png" align='center' alt="drawing" width="460" heigth="460"/>
-
-![Diagrama EER - Refinado](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Refinado.mwb)
-
-![Script SQL - Schema](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/Oficina-SQL_Create_Script.sql)
-
+![Resolução:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP1)
 
 
 ## Desafio 2
@@ -69,3 +56,6 @@ Narrativa:
   * Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão dos trabalhos.
   * Uma OS pode ser composta por vários serviços e um mesmo serviço pode estar contido em mais de uma OS.
   * Uma Os pode ter vários tipos de peças, e uma peça pode estar presente em mais de uma OS.
+
+
+![Resolução:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP2)
