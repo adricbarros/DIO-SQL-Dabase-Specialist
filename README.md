@@ -32,7 +32,7 @@ Refine o modelo apresentado acrescentando os seguintes pontos:
    * Entrega – Possui status e código de rastreio;
 
 
-![Resolução:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP1)
+![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP1)
 
 
 ## Desafio 2
@@ -58,4 +58,4 @@ Narrativa:
   * Uma Os pode ter vários tipos de peças, e uma peça pode estar presente em mais de uma OS.
 
 
-![Resolução:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP2)
+![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP2)
