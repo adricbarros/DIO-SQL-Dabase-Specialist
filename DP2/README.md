@@ -1,5 +1,5 @@
 
-# DIO - Formação SQL Specialist
+# DIO - SQL DATABASE SPECIALIST
 
 Repositório com a resolução do Desafio: Projeto Lógico de Banco de Dados do Zero.
 
