@@ -36,6 +36,26 @@ Narrativa:
 ## Resolução:
 
 
-Esquema Conceitual
+**Esquema Conceitual**
 
 <img src="images\Modelo Conceitual - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
+
+
+
+**Diagrama EER** ***(Enhanced Entity Relationship)***
+               
+<img src="images\Diagrama EER - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
+
+Conforme interpretação do contexto fornecido, as seguintes convenções foram consideradas no Modelo Relacional:
+
+- Os clientes podem ser pessoa física ou jurídica, devendo a aplicação tratar o dado fornecido (CPF ou CNPJ) de acordo com a quantidade de caracteres.
+- O Cliente abre uma Ordem de Serviço, que é encaminhada a uma equipe responsável.
+- A equipe responsável avalia os itens necessários para o atendimento.
+- A equipe lança as peças e serviços que irão compor o valor da OS e apresenta ao cliente.
+- O Cliente autoriza a execução, caso contrário a OS é cancelada.
+- Orçamento não são cobrados, conforme preconiza o Código de Defesa do Consumidor.
+- As equipes possuem 2 mecânicos, sendo que um mecânico só pode atuar em uma só equipe.
+- Os nomes das equipes são únicos.
+- Os dados de cadastro dos mecânicos são resgatados através do relacionamento entre as entidades Equipe e Funcionários.
+- Os dados dos produtos e serviços são resgatados através do relacionamento entre as entidades Ordem de Serviço, Produtos e Serviços.
+
