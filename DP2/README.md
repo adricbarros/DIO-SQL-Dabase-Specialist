@@ -39,15 +39,15 @@ Narrativa:
 **Esquema Conceitual**
 
 <img src="images\Modelo Conceitual - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
-
-
+<br />
+<br />
 
 **Diagrama EER** ***(Enhanced Entity Relationship)***
-               
+<br />               
 <img src="images\Diagrama EER - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
 
 Conforme interpretação do contexto fornecido, as seguintes convenções foram consideradas no Modelo Relacional:
-
+<br />
 - Os clientes podem ser pessoa física ou jurídica, devendo a aplicação tratar o dado (CPF ou CNPJ) de acordo com a quantidade de caracteres inseridos (11 ou 14) respectivamente.
 - O Cliente abre uma Ordem de Serviço, que é encaminhada a uma equipe responsável.
 - A equipe responsável avalia os itens necessários para o atendimento.
@@ -56,14 +56,19 @@ Conforme interpretação do contexto fornecido, as seguintes convenções foram 
 - O Cliente autoriza a execução, caso contrário a OS é cancelada.
 - Orçamentos não são cobrados, conforme preconiza o Código de Defesa do Consumidor.
 - A OS possui 6 Status pré definidos:
-     Em Aberto: Está aguardando orçamento e posterior autorização do cliente.
-     Cancelada: Cliente não autorizou o serviço.
-     Autorizada: Serviço autorizado, porém ainda não iniciado.
-     Em execução: Serviço em andamento após autorização do cliente.
-     Fechada: Serviço concluído e aguardando faturamento.
-     Faturada: Cliente efetuou o pagamento e Nota Fiscal foi emitida.    
+     * Em Aberto: Está aguardando orçamento e posterior autorização do cliente.
+     * Cancelada: Cliente não autorizou o serviço.
+     * Autorizada: Serviço autorizado, porém ainda não iniciado.
+     * Em execução: Serviço em andamento após autorização do cliente.
+     * Fechada: Serviço concluído e aguardando faturamento.
+     * Faturada: Cliente efetuou o pagamento e Nota Fiscal foi emitida.    
 - As equipes possuem 2 mecânicos, sendo que um mecânico só pode atuar em uma só equipe.
 - Os nomes das equipes são únicos.
 - Os dados de cadastro dos mecânicos são resgatados através do relacionamento entre as entidades Equipe e Funcionários.
 - Os dados dos produtos e serviços que compoem a OS são resgatados através do relacionamento entre as entidades Ordem de Serviço, Produtos e Serviços.
-
+<br />
+OBSERVAÇÕES:
+<br />
+1 - Este projeto não contempla todas as entidades e relacionamentos necessários para uso em um cenário real, atendo-se ao cumprimento do contexto fornecido para execução do projeto, sendo assim, não foram abordados de forma aprofundada as entidades, funcionalidades e relacionamentos de controle de estoque, financeiro, pessoal e etc.
+<br />
+2 - Em um cenário real, é possível a atuação de mais de uma equipe de mecânicos numa OS, como por exemplo em caso de colisões, onde serviços mecânicos, elétricos, de funilaria e pintura são utilizados, e que em virtude da natureza dos serviços são desempenhados por equipes de profissionais distintas. Entretanto, foi utilizado o contexto fornecido no desenvolvimento do esquema lógico.
