@@ -31,3 +31,8 @@ Narrativa:
   * Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão dos trabalhos.
   * Uma OS pode ser composta por vários serviços e um mesmo serviço pode estar contido em mais de uma OS.
   * Uma Os pode ter vários tipos de peças, e uma peça pode estar presente em mais de uma OS.
+
+
+## Resolução:
+
+<img src="images\Modelo Conceitual - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
