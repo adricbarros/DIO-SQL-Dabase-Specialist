@@ -35,4 +35,7 @@ Narrativa:
 
 ## Resolução:
 
+
+Esquema Conceitual
+
 <img src="images\Modelo Conceitual - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
