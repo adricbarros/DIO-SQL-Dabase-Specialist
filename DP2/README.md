@@ -72,3 +72,5 @@ OBSERVAÇÕES:
 1 - Este projeto não contempla todas as entidades e relacionamentos necessários para uso em um cenário real, atendo-se ao cumprimento do contexto fornecido para execução do projeto, sendo assim, não foram abordados de forma aprofundada as entidades, funcionalidades e relacionamentos de controle de estoque, financeiro, pessoal e etc.
 <br />
 2 - Em um cenário real, é possível a atuação de mais de uma equipe de mecânicos numa OS, como por exemplo em caso de colisões, onde serviços mecânicos, elétricos, de funilaria e pintura são utilizados, e que em virtude da natureza dos serviços são desempenhados por equipes de profissionais distintas. Entretanto, foi utilizado o contexto fornecido no desenvolvimento do esquema lógico.
+  
+![SQL Create Script:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP2/src/SQL Create Script - Oficina.sql)
