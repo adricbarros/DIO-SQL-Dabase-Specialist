@@ -1,7 +1,7 @@
 
 # DIO - SQL Database Specialist
 
-Repositório com as resoluções dos desafios de projeto e desafios de código da formação SQL Specialist da Digital Inovation One - DIO.
+Repositório com as resoluções dos desafios de projeto e desafios de código da formação SQL Database Specialist da Digital Inovation One - DIO.
 
 <img src="images\SQL Specialist Logo.webp" align='center' alt="drawing" width="250" heigth="250"/>
 
