@@ -31,4 +31,4 @@ Resolução:
 
 ![Diagrama EER - Refinado](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/E-commerce%20-%20Refinado.mwb)
 
-![Script SQL - Schema](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/Oficina-SQL_Create_Script.sql)
+![Script SQL - Schema](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP1/Ecommerce-SQL_Create_Script-Refinado.sql)
