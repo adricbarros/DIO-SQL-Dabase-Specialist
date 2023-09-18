@@ -36,13 +36,13 @@ Narrativa:
 ## Resolução:
 
 
-**Esquema Conceitual**
+**Projeto Conceitual**
 
 <img src="images\Modelo Conceitual - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
 <br />
 <br />
 
-**Diagrama EER** ***(Enhanced Entity Relationship)***
+**Projeto Lógico**
 <br />               
 <img src="images\Diagrama EER - Oficina.png" align='center' alt="drawing" width="693" heigth="413"/>
 
