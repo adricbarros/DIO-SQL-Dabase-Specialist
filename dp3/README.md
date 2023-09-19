@@ -42,8 +42,8 @@ Entregável:
     Crie o índice para cada tabela envolvida (de acordo com a necessidade) 
 
     Tipo de indice utilizado e motivo da escolha (via comentário no script ou readme) 
-
-
+     
+    
 
 **Parte 2 - Utilização de procedures para manipulação de dados em Banco de Dados**
 
@@ -53,7 +53,9 @@ Além das variáveis de recebimento das informações, a procedure deverá possu
 
 Entregável: 
 
-Script SQL com a procedure criada e chamada para manipular os dados de universidade e e-commerce. Podem ser criados dois arquivos distintos, assim como a utilização do mesmo script para criação das procedures.
+    Script SQL com a procedure criada e chamada para manipular os dados de universidade e e-commerce. 
+
+    Podem ser criados dois arquivos distintos, assim como a utilização do mesmo script para criação das procedures.
 
 ## Resolução:
 
