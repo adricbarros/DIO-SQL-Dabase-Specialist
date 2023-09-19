@@ -15,7 +15,7 @@ Repositório com a resolução do Desafio de Projeto Nº 3: Personalizando Banco
 
 **Parte 1 – Criando índices em Banco de Dados**
 
-Criação de índices para consultas para o cenário de company com as perguntas (queries sql) para recuperação de informações. Sendo assim, dentro do script será criado os índices com base na consulta SQL.  
+Criação de índices para consultas para o cenário de company com as perguntas (queries sql) para recuperação de informações. Sendo assim, dentro do script serão criados os índices com base nas consultas SQL.  
 
 O que será levado em consideração para criação dos índices? 
 
@@ -23,7 +23,7 @@ O que será levado em consideração para criação dos índices?
 
     Quais os dados mais relevantes no contexto 
 
-Lembre-se da função do índice... ele impacta diretamente na velocidade da buca pelas informações no SGBD. Crie apenas aqueles que são importantes. Sendo assim, adicione um README dentro do repositório do Github explicando os motivos que o levaram a criar tais índices. Para que outras pessoas possam se espelhar em seu trabalho, crie uma breve descrição do projeto. 
+Lembre-se da função do índice... ele impacta diretamente na velocidade da busca pelas informações no SGBD. Crie apenas aqueles que são importantes. Sendo assim, adicione um README dentro do repositório do Github explicando os motivos que o levaram a criar tais índices. Para que outras pessoas possam se espelhar em seu trabalho, crie uma breve descrição do projeto. 
 
 A criação do índice pode ser criada via ALTER TABLE ou CREATE Statement.
 
@@ -33,7 +33,7 @@ Perguntas:
 
     Quais são os departamentos por cidade? 
 
-    Relação de empregrados por departamento 
+    Relação de empregados por departamento 
 
 Entregável: 
 
