@@ -79,7 +79,4 @@ Entregável:
 
 ## Source Files:
   
-![SQL Create Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/693ee4edae7a77c6571789ea09241c405e2cde3f/DP2/src/SQL_Create_Script-Oficina.sql)
-
-![Diagram EER - Enhanced Entity Relationship](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/66b7d8215fe1f7b580df8b3991df008bfa28ef5a/DP2/src/Diagrama%20EER%20-%20Oficina%20v2.0.mwb)
-
+![SQL Create Index & Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
