@@ -79,4 +79,4 @@ Entregável:
 
 ## Source Files:
   
-![SQL Create Index & Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/main/dp3/src/Company-Index_and_Queries.sql)
+![SQL Create Index & Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
