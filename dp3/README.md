@@ -29,11 +29,11 @@ A criação do índice pode ser criada via ALTER TABLE ou CREATE Statement.
 
 Perguntas:  
 
-    Qual o departamento com maior número de pessoas? 
+    1 - Qual o departamento com maior número de pessoas? 
 
-    Quais são os departamentos por cidade? 
+    2 - Quais são os departamentos por cidade? 
 
-    Relação de empregados por departamento 
+    3 - Relação de empregados por departamento 
 
 Entregável: 
 
@@ -59,8 +59,19 @@ Entregável:
 
 ## Resolução:
 
+**Parte 1 - Perguntas:**  
 
+1 - Qual o departamento com maior número de pessoas?
 
+   <img src="images\dept_max_employee.png" align='center' alt="drawing" width="188" heigth="85"/>
+     
+2 - Quais são os departamentos por cidade? 
+   
+   <img src="images\dept_by_city.png" align='center' alt="drawing" width="189" heigth="136"/>
+    
+3 - Relação de empregados por departamento
+   
+   <img src="images\employee_by_dept.png" align='center' alt="drawing" width="220" heigth="204"/>
 
 ## Source Files:
   
