@@ -30,17 +30,21 @@ A criação do índice pode ser criada via ALTER TABLE ou CREATE Statement.
 Perguntas:  
 
     1 - Qual o departamento com maior número de pessoas? 
-
     2 - Quais são os departamentos por cidade? 
-
     3 - Relação de empregados por departamento 
+
+O empregador precisa ter as visões:
+
+    • Número de empregados por departamento e localidade
+    • Lista de departamentos e seus gerentes
+    • Projetos com maior número de empregados
+    • Lista de projetos, departamentos e gerentes
+    • Quais empregados possuem dependentes e se são gerentes
 
 Entregável: 
 
-    Crie as queries para responder essas perguntas 
-
+    Crie as queries e views para responder essas perguntas 
     Crie o índice para cada tabela envolvida (de acordo com a necessidade) 
-
     Tipo de indice utilizado e motivo da escolha (via comentário no script ou readme) 
      
     
