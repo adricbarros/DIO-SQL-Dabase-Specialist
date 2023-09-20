@@ -61,9 +61,9 @@ Entregável:
 
     Podem ser criados dois arquivos distintos, assim como a utilização do mesmo script para criação das procedures.
 
-## Resolução:
+## Resolução - Parte 1:
 
-**Parte 1 - Perguntas:**  
+**Perguntas:**  
 
 1 - Qual o departamento com maior número de pessoas?
 
@@ -76,6 +76,28 @@ Entregável:
 3 - Relação de empregados por departamento
    
    <img src="images\employee_by_dept.png" align='center' alt="drawing" width="220" heigth="204"/>
+
+**Views**
+
+• Número de empregados por departamento e localidade
+
+<img src="images\employee_location.png" align='center' alt="drawing" width="246" heigth="130"/>
+
+• Lista de departamentos e seus gerentes
+
+<img src="images\dept_mngr.png" align='center' alt="drawing" width="282" heigth="132"/>
+
+• Projetos com maior número de empregados
+
+<img src="images\max_employee_prj.png" align='center' alt="drawing" width="218" heigth="119"/>
+
+• Lista de projetos, departamentos e gerentes
+
+<img src="images\prj_dept_mngr.png" align='center' alt="drawing" width="299" heigth="151"/>
+
+• Quais empregados possuem dependentes e se são gerentes
+
+<img src="images\employee_dep_mgr.png" align='center' alt="drawing" width="188" heigth="115"/>
 
 ## Source Files:
   
