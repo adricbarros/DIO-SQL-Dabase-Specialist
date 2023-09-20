@@ -104,6 +104,6 @@ SELECT concat(Fname, ' ', Minit, ' ', Lname,
 	END AS Manager
     FROM employee e
     JOIN dependent d1 on e.ssn = d1.essn
-	LEFT JOIN department d2 on e.ssn = d2.Mgr_ssn
+    LEFT JOIN department d2 on e.ssn = d2.Mgr_ssn
     group by employee;
    
