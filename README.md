@@ -64,9 +64,10 @@ Narrativa:
 ## Desafio 3:
 
 
-Criação de índices com base nas consultas para o cenário de company equeries sql para recuperação de informações.  
+Criação de índices com base nas consultas para o cenário de company e queries sql para recuperação de informações.  
 
 **Parte 1 – Criando índices em Banco de Dados**
+
 O que deverá ser levado em consideração para criação dos índices? 
 
     • Quais os dados mais acessados 
@@ -74,7 +75,7 @@ O que deverá ser levado em consideração para criação dos índices?
 
 A criação do índice pode ser criada via ALTER TABLE ou CREATE Statement.
 
-**Perguntas: **
+**Perguntas:**
 
     1 - Qual o departamento com maior número de pessoas? 
     2 - Quais são os departamentos por cidade? 
