@@ -24,10 +24,10 @@ Neste desafio você irá criar visões para os seguintes cenários:
     • Quais empregados possuem dependentes e se são gerentes 
  
 
-Além disso, deverão ser definidas as permissões de acesso as views de acordo com o tipo de conta de usuário. 
-Lembre-se que as views ficam armazaneadas no banco de dados como uma “tabela”, assim podemos definir permissão de acesso a este item do banco de dados.  
+Definir permissões de acesso as views de acordo com o tipo de conta de usuário. 
 
-Você poderá criar um usuário gerente que terá acesso as informações de employee e departamento. Contudo, employee não terá acesso as informações relacionadas aos departamentos ou gerentes. 
+Criar um usuário gerente que terá acesso as informações de employee e departamento. 
+Contudo, employee não terá acesso as informações relacionadas aos departamentos ou gerentes. 
 
 
 
