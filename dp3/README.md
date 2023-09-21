@@ -128,6 +128,10 @@ Entregável:
 
 <img src="images\Company_proc_delete.png" align='center' alt="drawing" width="333" heigth="61"/>
 
+**Listagem final após exclusão:**
+
+<img src="images\Company_proc_select4.png" align='center' alt="drawing" width="269" heigth="211"/>
+
 ## Source Files:
   
 ![SQL Create Index & Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
