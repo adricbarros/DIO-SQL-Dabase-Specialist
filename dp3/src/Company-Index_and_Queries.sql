@@ -1,5 +1,5 @@
--- RESOLUÇÃO DO DESAFIO Nº 3 
--- PARTE 1 - CRIAÇÃO DE ÍNDICES E QUERIES
+-- RESOLUÇÃO DO DESAFIO Nº 3 - PARTE 1 
+-- CRIAÇÃO DE ÍNDICES E QUERIES
 -- Utilizou-se como critério para indexação, os atributos chave utilizados na junção das tabelas para qualificar as consultas.
 
 use company;
