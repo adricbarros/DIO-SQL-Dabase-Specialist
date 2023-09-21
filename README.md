@@ -100,5 +100,5 @@ Entregável:
     •Script SQL com a procedure criada e chamada para manipular os dados de universidade e e-commerce. 
     •Podem ser criados dois arquivos distintos, assim como a utilização do mesmo script para criação das procedures.
 
-![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP3)
+![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/dp3)
 
