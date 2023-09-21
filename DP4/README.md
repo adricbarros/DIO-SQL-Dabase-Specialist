@@ -13,7 +13,7 @@
 ## Objetivos:
 
 
-**Parte 1 – Personalizando acessos com views**
+**Parte 1 – Personalizando acessos com views para o cenário de Company**
 
 Neste desafio você irá criar visões para os seguintes cenários:
 
@@ -81,6 +81,5 @@ Inserção de novos colaboradores e atualização do salário base.
 
 ## Source Files:
   
-![SQL Create Index & Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
+![SQL Create Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
 
-![SQL Stored Procedure Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Stored_Procedure.sql)
