@@ -1,8 +1,9 @@
 # DIO - SQL DATABASE SPECIALIST
 
-Repositório com a resolução do Desafio de Projeto Nº 4: Personalizando Acessos e Automatizando ações no MySQL.
+***Repositório com a resolução do Desafio de Projeto Nº 4: Personalizando Acessos e Automatizando ações no MySQL***
 
-<img src="images\Views_and_trigerrs_SQL.png" align='center' alt="drawing" width="1323" heigth="614"/>
+<img src="images/Views_and_triggers_SQL.png" align='center' alt="drawing" width="960" heigth="469"/>
+
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/adricbarros/DIO-SQL-Database-Specialist?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/adricbarros/DIO-SQL-Database-Specialist?style=for-the-badge)
@@ -14,31 +15,19 @@ Repositório com a resolução do Desafio de Projeto Nº 4: Personalizando Acess
 
 Parte 1 – Personalizando acessos com views 
 
-
 Neste desafio você irá criar visões para os seguintes cenários:
 
-	Número de empregados por departamento e localidade 
-
-    Lista de departamentos e seus gerentes 
-
-    Projetos com maior número de empregados (ex: por ordenação desc) 
-
-    Lista de projetos, departamentos e gerentes 
-
-    Quais empregados possuem dependentes e se são gerentes 
-
+    • Número de empregados por departamento e localidade 
+    • Lista de departamentos e seus gerentes 
+    • Projetos com maior número de empregados (ex: por ordenação desc) 
+    • Lista de projetos, departamentos e gerentes 
+    • Quais empregados possuem dependentes e se são gerentes 
  
 
-Além disso, serão definidas as permissões de acesso as views de acordo com o tipo de conta de usuários. Lembre-se que as views ficam armazaneadas no banco de dados como uma “tabela”. Assim podemos definir permissão de acesso a este item do banco de dados.  
-
+Além disso, deverão ser definidas as permissões de acesso as views de acordo com o tipo de conta de usuário. 
+Lembre-se que as views ficam armazaneadas no banco de dados como uma “tabela”, assim podemos definir permissão de acesso a este item do banco de dados.  
 
 Você poderá criar um usuário gerente que terá acesso as informações de employee e departamento. Contudo, employee não terá acesso as informações relacionadas aos departamentos ou gerentes. 
-
-Um exemplo retirado da aula para criação de usuário e definição de permissão pode ser encontrado abaixo. 
-
-CODE 1:
-
-Obs: O tema de permissão de usuários foi apresentada no curso Explorando Cláusulas de DDL e Esquemas de Banco de Dados no MySQL. 
 
 
 
@@ -50,79 +39,48 @@ Sabemos que a criação de triggers está associadas a ações que podem ser tom
 
 Exemplo de trigger para base.
 
-CODE 2:
-
 Entregável: 
 
-    Triggers de remoção: before delete 
-
-    Triggers de atualização: before update 
+    • Triggers de remoção: before delete 
+    • Triggers de atualização: before update 
  
-Remoção:  
-
+CODE 2:
+Remoção  
 Usuários podem excluir suas contas por algum motivo. Dessa forma, para não perder as informações sobre estes usuários, crie um gatilho before remove 
 
 CODE 3:
-Atualização:  
+Atualização  
 Inserção de novos colaboradores e atualização do salário base. 
 
-CODE 4:
 
-## **Resolução**
-**Views**
+## **Resolução - Parte 1:**
+
+**Personalizando acessos com Views**
 
 • Número de empregados por departamento e localidade
 
-<img src="images\employee_location.png" align='center' alt="drawing" width="246" heigth="130"/>
+<img src="images/employee_location.png" align='center' alt="drawing" width="246" heigth="130"/>
 
 • Lista de departamentos e seus gerentes
 
-<img src="images\dept_mngr.png" align='center' alt="drawing" width="282" heigth="132"/>
+<img src="images/dept_mngr.png" align='center' alt="drawing" width="282" heigth="132"/>
 
 • Projetos com maior número de empregados
 
-<img src="images\max_employee_prj.png" align='center' alt="drawing" width="218" heigth="119"/>
+<img src="images/max_employee_prj.png" align='center' alt="drawing" width="218" heigth="119"/>
 
 • Lista de projetos, departamentos e gerentes
 
-<img src="images\prj_dept_mngr.png" align='center' alt="drawing" width="299" heigth="151"/>
+<img src="images/prj_dept_mngr.png" align='center' alt="drawing" width="299" heigth="151"/>
 
 • Quais empregados possuem dependentes e se são gerentes
 
-<img src="images\employee_dep_mgr.png" align='center' alt="drawing" width="188" heigth="115"/>
+<img src="images/employee_dep_mgr.png" align='center' alt="drawing" width="188" heigth="115"/>
 
 
-## Resolução - Parte 2:
+## **Resolução - Parte 2:**
 
-• Stored Procedure para manipulação dos dados em Ecommerce 
 
-**Listagem inicial:**
-
-<img src="images\Company_proc_select1.png" align='center' alt="drawing" width="221" heigth="201"/>
-
-**Inserção:**
-
-<img src="images\Company_proc_insert.png" align='center' alt="drawing" width="535" heigth="69"/>
-
-**Check da inserção:**
-
-<img src="images\Company_proc_select2.png" align='center' alt="drawing" width="266" heigth="216"/>
-
-**Alteração:**
-
-<img src="images\Company_proc_update.png" align='center' alt="drawing" width="535" heigth="69"/>
-
-**Check da alteração:**
-
-<img src="images\Company_proc_select3.png" align='center' alt="drawing" width="264" heigth="214"/>
-
-**Exclusão:**
-
-<img src="images\Company_proc_delete.png" align='center' alt="drawing" width="333" heigth="61"/>
-
-**Listagem final após exclusão:**
-
-<img src="images\Company_proc_select4.png" align='center' alt="drawing" width="269" heigth="211"/>
 
 ## Source Files:
   
