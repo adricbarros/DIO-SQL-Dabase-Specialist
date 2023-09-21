@@ -81,5 +81,5 @@ Inserção de novos colaboradores e atualização do salário base.
 
 ## Source Files:
   
-![SQL Create Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
+![SQL Create Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/DP4/src/Company-Create_Views_Triggers.sql)
 
