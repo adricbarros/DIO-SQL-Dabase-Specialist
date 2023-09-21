@@ -101,11 +101,34 @@ Entregável:
 
 ## Resolução - Parte 2:
 
-• Stored Procedure para manipulação dos dados em Ecommerce (Listagem)
+• Stored Procedure para manipulação dos dados em Ecommerce 
 
+**Listagem inicial:**
 
+<img src="images\Company_proc_select1.png" align='center' alt="drawing" width="221" heigth="201"/>
 
+**Inserção:**
+
+<img src="images\Company_proc_insert.png" align='center' alt="drawing" width="535" heigth="69"/>
+
+**Check da inserção:**
+
+<img src="images\Company_proc_select2.png" align='center' alt="drawing" width="266" heigth="216"/>
+
+**Alteração:**
+
+<img src="images\Company_proc_update.png" align='center' alt="drawing" width="535" heigth="69"/>
+
+**Check da alteração:**
+
+<img src="images\Company_proc_select3.png" align='center' alt="drawing" width="264" heigth="214"/>
+
+**Exclusão:**
+
+<img src="images\Company_proc_delete.png" align='center' alt="drawing" width="333" heigth="61"/>
 
 ## Source Files:
   
 ![SQL Create Index & Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
+
+![SQL Stored Procedure Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
