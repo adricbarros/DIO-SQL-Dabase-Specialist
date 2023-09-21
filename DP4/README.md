@@ -13,7 +13,7 @@
 ## Objetivos:
 
 
-Parte 1 – Personalizando acessos com views 
+**Parte 1 – Personalizando acessos com views**
 
 Neste desafio você irá criar visões para os seguintes cenários:
 
@@ -33,11 +33,7 @@ Você poderá criar um usuário gerente que terá acesso as informações de emp
 
 **Parte 2 – Criando gatilhos para cenário de e-commerce**
 
-Objetivo: 
-
 Sabemos que a criação de triggers está associadas a ações que podem ser tomadas em momento anterior ou posterior a inserção, ou atualização dos dados. Além disso, em casos de remoção podemos utilizar as triggers. Sendo assim, crie as seguintes triggers para o cenário de e-commerce. 
-
-Exemplo de trigger para base.
 
 Entregável: 
 
@@ -80,6 +76,7 @@ Inserção de novos colaboradores e atualização do salário base.
 
 ## **Resolução - Parte 2:**
 
+**Automatizando ações com Triggers**
 
 
 ## Source Files:
