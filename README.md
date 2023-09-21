@@ -92,7 +92,6 @@ A criação do índice pode ser criada via ALTER TABLE ou CREATE Statement.
 **Parte 2 - Utilização de procedures para manipulação de dados em Banco de Dados**
 
 Criar uma procedure que possua as instruções de inserção, remoção e atualização de dados no banco de dados. As instruções devem estar dentro de estruturas condicionais (como CASE ou IF).  
-
 Além das variáveis de recebimento das informações, a procedure deverá possuir uma variável de controle. Essa variável de controle irá determinar a ação a ser executada. Ex: opção 1 – select, 2 – update, 3 – delete. 
 
 Entregável: 
@@ -102,3 +101,44 @@ Entregável:
 
 ![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/dp3)
 
+
+## Desafio 4:
+
+
+**Personalizando acessos e Automatizando ações no MySQL**
+
+**Parte 1 – Personalizando acessos com views.**
+
+Neste desafio você irá criar visões para os seguintes cenários:
+
+    • Número de empregados por departamento e localidade 
+    • Lista de departamentos e seus gerentes 
+    • Projetos com maior número de empregados (ex: por ordenação desc) 
+    • Lista de projetos, departamentos e gerentes 
+    • Quais empregados possuem dependentes e se são gerentes 
+ 
+
+Além disso, deverão ser definidas as permissões de acesso as views de acordo com o tipo de conta de usuário. 
+Lembre-se que as views ficam armazaneadas no banco de dados como uma “tabela”, assim podemos definir permissão de acesso a este item do banco de dados.  
+
+Você poderá criar um usuário gerente que terá acesso as informações de employee e departamento. Contudo, employee não terá acesso as informações relacionadas aos departamentos ou gerentes. 
+
+
+**Parte 2 – Criando gatilhos para cenário de e-commerce**
+
+Sabemos que a criação de triggers está associadas a ações que podem ser tomadas em momento anterior ou posterior a inserção, ou atualização dos dados. Além disso, em casos de remoção podemos utilizar as triggers. Sendo assim, crie as seguintes triggers para o cenário de e-commerce. 
+
+Entregável: 
+
+    • Triggers de remoção: before delete 
+    • Triggers de atualização: before update 
+ 
+CODE 2:
+Remoção  
+Usuários podem excluir suas contas por algum motivo. Dessa forma, para não perder as informações sobre estes usuários, crie um gatilho before remove 
+
+CODE 3:
+Atualização  
+Inserção de novos colaboradores e atualização do salário base.
+
+![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP4)
