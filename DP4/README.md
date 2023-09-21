@@ -2,7 +2,7 @@
 
 Repositório com a resolução do Desafio de Projeto Nº 4: Personalizando Acessos e Automatizando ações no MySQL.
 
-<img src="images\INDEXING_DATABASES.png" align='center' alt="drawing" width="1323" heigth="614"/>
+<img src="images\Views_and_trigerrs_SQL.png" align='center' alt="drawing" width="1323" heigth="614"/>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/adricbarros/DIO-SQL-Database-Specialist?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/adricbarros/DIO-SQL-Database-Specialist?style=for-the-badge)
@@ -41,12 +41,12 @@ CODE 1:
 Obs: O tema de permissão de usuários foi apresentada no curso Explorando Cláusulas de DDL e Esquemas de Banco de Dados no MySQL. 
 
 
-Parte 2 – Criando gatilhos para cenário de e-commerce 
+
+**Parte 2 – Criando gatilhos para cenário de e-commerce**
 
 Objetivo: 
 
 Sabemos que a criação de triggers está associadas a ações que podem ser tomadas em momento anterior ou posterior a inserção, ou atualização dos dados. Além disso, em casos de remoção podemos utilizar as triggers. Sendo assim, crie as seguintes triggers para o cenário de e-commerce. 
-
 
 Exemplo de trigger para base.
 
@@ -57,21 +57,18 @@ Entregável:
     Triggers de remoção: before delete 
 
     Triggers de atualização: before update 
-
  
 Remoção:  
 
 Usuários podem excluir suas contas por algum motivo. Dessa forma, para não perder as informações sobre estes usuários, crie um gatilho before remove 
 
 CODE 3:
-
 Atualização:  
-
 Inserção de novos colaboradores e atualização do salário base. 
 
 CODE 4:
 
-
+## **Resolução**
 **Views**
 
 • Número de empregados por departamento e localidade
