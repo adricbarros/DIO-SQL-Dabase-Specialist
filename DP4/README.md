@@ -74,6 +74,18 @@ Inserção de novos colaboradores e atualização do salário base.
 <img src="images/employee_dep_mgr.png" align='center' alt="drawing" width="188" heigth="115"/>
 
 
+**Definição de permissões de acesso as Views e ao Banco de Dados**
+
+• Usuário Geral: Concedido acesso somente a View "prj_dept_mngr"
+
+<img src="images/user_permission_geral-1.png" align='center' alt="drawing" width="868" heigth="517"/>
+
+<img src="images/User_permission_geral-2.png" align='center' alt="drawing" width="864" heigth="557"/>
+
+• Usuário Manager: Concedido acesso irrestrito ao banco Company
+
+<img src="images/User_permission_manager-1.png" align='center' alt="drawing" width="1241" heigth="647"/>
+
 ## **Resolução - Parte 2:**
 
 **Automatizando ações com Triggers**
