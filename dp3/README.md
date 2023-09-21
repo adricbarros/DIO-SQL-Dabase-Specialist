@@ -101,6 +101,6 @@ Além das variáveis de recebimento das informações, a procedure deverá possu
 
 ## Source Files:
   
-![SQL Create Index & Queries Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Index_and_Queries.sql)
+![SQL Create Index & Queries Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/dp3/src/Company-Index_and_Queries.sql)
 
-![SQL Stored Procedure Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/raw/main/dp3/src/Company-Stored_Procedure.sql)
+![SQL Stored Procedure Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/dp3/src/Company-Stored_Procedure.sql)
