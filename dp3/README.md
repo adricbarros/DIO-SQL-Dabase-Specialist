@@ -99,6 +99,7 @@ Entregável:
 
 <img src="images\employee_dep_mgr.png" align='center' alt="drawing" width="188" heigth="115"/>
 
+
 ## Resolução - Parte 2:
 
 • Stored Procedure para manipulação dos dados em Ecommerce 
