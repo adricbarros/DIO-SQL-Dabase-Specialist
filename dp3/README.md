@@ -69,7 +69,7 @@ Além das variáveis de recebimento das informações, a procedure deverá possu
 
 ## Resolução - Parte 2:
 
-• Stored Procedure para manipulação dos dados em Ecommerce 
+**• Stored Procedure para manipulação dos dados em Ecommerce**
 
 **Listagem inicial:**
 
