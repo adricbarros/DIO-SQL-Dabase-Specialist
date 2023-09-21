@@ -1,7 +1,7 @@
 
 # DIO - SQL DATABASE SPECIALIST
 
-Repositório com a resolução do Desafio de Projeto Nº 3: Personalizando Banco de Dados com Índices e Procedures.
+***Repositório com a resolução do Desafio de Projeto Nº 3: Personalizando Banco de Dados com Índices e Procedures.***
 
 <img src="images\INDEXING_DATABASES.png" align='center' alt="drawing" width="1323" heigth="614"/>
 
@@ -33,19 +33,11 @@ Perguntas:
     2 - Quais são os departamentos por cidade? 
     3 - Relação de empregados por departamento 
 
-O empregador precisa ter as visões:
-
-    • Número de empregados por departamento e localidade
-    • Lista de departamentos e seus gerentes
-    • Projetos com maior número de empregados
-    • Lista de projetos, departamentos e gerentes
-    • Quais empregados possuem dependentes e se são gerentes
-
 Entregável: 
 
-    Crie as queries e views para responder essas perguntas 
-    Crie o índice para cada tabela envolvida (de acordo com a necessidade) 
-    Tipo de indice utilizado e motivo da escolha (via comentário no script ou readme) 
+    • Crie as queries para responder essas perguntas 
+    • Crie o índice para cada tabela envolvida (de acordo com a necessidade) 
+    • Tipo de indice utilizado e motivo da escolha (via comentário no script ou readme) 
      
     
 
@@ -57,47 +49,25 @@ Além das variáveis de recebimento das informações, a procedure deverá possu
 
 Entregável: 
 
-    Script SQL com a procedure criada e chamada para manipular os dados de universidade e e-commerce. 
-
-    Podem ser criados dois arquivos distintos, assim como a utilização do mesmo script para criação das procedures.
+    •Script SQL com a procedure criada e chamada para manipular os dados de universidade e e-commerce. 
+    •Podem ser criados dois arquivos distintos, assim como a utilização do mesmo script para criação das procedures.
 
 ## Resolução - Parte 1:
 
 **Perguntas:**  
 
-1 - Qual o departamento com maior número de pessoas?
+**1 - Qual o departamento com maior número de pessoas?**
 
    <img src="images\dept_max_employee.png" align='center' alt="drawing" width="188" heigth="85"/>
      
-2 - Quais são os departamentos por cidade? 
+**2 - Quais são os departamentos por cidade?** 
    
    <img src="images\dept_by_city.png" align='center' alt="drawing" width="189" heigth="136"/>
     
-3 - Relação de empregados por departamento
+**3 - Relação de empregados por departamento**
    
    <img src="images\employee_by_dept.png" align='center' alt="drawing" width="220" heigth="204"/>
 
-**Views**
-
-• Número de empregados por departamento e localidade
-
-<img src="images\employee_location.png" align='center' alt="drawing" width="246" heigth="130"/>
-
-• Lista de departamentos e seus gerentes
-
-<img src="images\dept_mngr.png" align='center' alt="drawing" width="282" heigth="132"/>
-
-• Projetos com maior número de empregados
-
-<img src="images\max_employee_prj.png" align='center' alt="drawing" width="218" heigth="119"/>
-
-• Lista de projetos, departamentos e gerentes
-
-<img src="images\prj_dept_mngr.png" align='center' alt="drawing" width="299" heigth="151"/>
-
-• Quais empregados possuem dependentes e se são gerentes
-
-<img src="images\employee_dep_mgr.png" align='center' alt="drawing" width="188" heigth="115"/>
 
 
 ## Resolução - Parte 2:
