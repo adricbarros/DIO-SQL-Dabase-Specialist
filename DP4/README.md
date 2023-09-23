@@ -87,11 +87,33 @@ Inserção de novos colaboradores e atualização do salário base.
 <img src="images/User_permission_manager-1.png" align='center' alt="drawing" width="1241" heigth="647"/>
 
 ## **Resolução - Parte 2:**
-
 **Automatizando ações com Triggers**
+
+• Usuários podem excluir suas contas por algum motivo. Dessa forma, para não perder as informações sobre estes usuários, crie um gatilho before remove
+
+***Trigger before remove***
+
+<img src="images/Trigger_bef_client_delete.png" align='center' alt="drawing" width="535" heigth="77"/>
+
+***Tabela Clients antes da exclusão***
+
+<img src="images/clients_bef_delete.png" align='center' alt="drawing" width="535" heigth="222"/>
+
+***Remoção do Cliente via procedure***
+
+<img src="images/client_deleted.png" align='center' alt="drawing" width="535" heigth="77"/>
+
+***Tabela Clients após a exclusão***
+
+<img src="images/clients_aft_delete.png" align='center' alt="drawing" width="535" heigth="222"/>
+
+***Tabela Former_Client (Clientes Removidos) após a exclusão***
+
+<img src="images/former_client_table.png" align='center' alt="drawing" width="566" heigth="80"/>
 
 
 ## Source Files:
   
-![SQL Create Views & Triggers Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP4/src/Company-Create_Views_Triggers.sql)
+![SQL Create Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP4/src/Company-Create_Views_Triggers.sql)
 
+![SQL Create Triggers Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP4/src/Company-Create_Triggers.sql)
