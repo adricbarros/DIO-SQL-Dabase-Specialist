@@ -90,40 +90,4 @@ grant all privileges on company.* to 'manager'@localhost;
 revoke all, grant OPTION FROM 'geral'@localhost;
 revoke all, grant OPTION FROM 'manager'@localhost;
 
--- AUTOMATIZANDO AÇÕES COM TRIGGERS
-/*
-CREATE
-[DEFINER = user]
-TRIGGER [IF NOT EXISTS] trigger_name
-trigger_time trigger_event
-ON tbl_name FOR EACH ROW
-[trigger order]
-trigger body
-
-trigger_time: { BEFORE | AFTER }
-trigger_event: { INSERT | UPDATE | DELETE }
-trigger_order: { FOLLOWS | PRECEDES | } other_trigger_name
-*/
-
--- before insert statement
-# setando gerentes por departamento
-delimiter \\
-create trigger trigger_name before insert on company
-for EACH ROW
-	begin
-		case new.Dno 
-			when 1 then set new.Super_ssn = '333445555';
-		end case;
-	end //
-delimiter ;
-
-
-delimiter \\
-create trigger trigger_name after insert on company
-for EACH ROW
-	if (new.Bdate is Null) then -- se comparar com valor use is, do contrario = para string
-		select 'Update your Address, please!' as Message;
-	end if;
-    //
-delimiter ;
 
