@@ -111,9 +111,17 @@ Inserção de novos colaboradores e atualização do salário base.
 
 <img src="images/former_client_table.png" align='center' alt="drawing" width="566" heigth="80"/>
 
+• Inserção de novos colaboradores.
+Trigger atualiza o departamento do funcionário antes do insert
+
+<img src="images/Trigger_bef_employee_ins.png" align='center' alt="drawing" width="679" heigth="233"/>
+
+• Atualização do salário base. 
+
+<img src="images/Trigger_bef_employee_upd.png" align='center' alt="drawing" width="678" heigth="234"/>
 
 ## Source Files:
   
-![SQL Create Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP4/src/Company-Create_Views_Triggers.sql)
+![SQL Create Views Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP4/src/Company-Create_Views.sql)
 
 ![SQL Create Triggers Script](https://github.com/adricbarros/DIO-SQL-Database-Specialist/blob/main/DP4/src/Company-Create_Triggers.sql)
