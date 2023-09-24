@@ -20,7 +20,7 @@ create trigger bef_client_delete
 before delete
 on clients for EACH ROW
 BEGIN
-		insert into former_client(Fname, Minit, Lname, CPF, Address) 
+	insert into former_client(Fname, Minit, Lname, CPF, Address) 
         values (OLD.Fname, OLD.Minit, OLD.Lname, OLD.CPF, OLD.Address);
 END $$
 delimiter ;
@@ -42,13 +42,13 @@ create trigger bef_employee_insert
 before insert
 on employee for EACH ROW
 	BEGIN
-			case new.Dno 
-				when 1 then set new.Super_ssn = '333445555'; 
-				when 2 then set new.Super_ssn = null; 
-				when 3 then set new.Super_ssn = null; 
-				when 4 then set new.Super_ssn = '123456789'; 
-				when 5 then set new.Super_ssn = '987654321'; 
-			end case; 
+		case new.Dno 
+			when 1 then set new.Super_ssn = '333445555'; 
+			when 2 then set new.Super_ssn = null; 
+			when 3 then set new.Super_ssn = null; 
+			when 4 then set new.Super_ssn = '123456789'; 
+			when 5 then set new.Super_ssn = '987654321'; 
+		end case; 
 	END $$
 delimiter ;
 
