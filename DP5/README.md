@@ -47,6 +47,8 @@ Entregável:
 
 **Parte 1 – Transações de Banco de Dados.**
 
+<img src="images/transaction_queries.png" align='center' alt="drawing" width="1095" heigth="411"/>
+
 **Parte 2 – Transações de Banco de Dados com procedures.**
 
 **Parte 3 – Backup & Recovery de Banco de Dados.**
