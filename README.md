@@ -142,3 +142,39 @@ Atualização
 Inserção de novos colaboradores e atualização do salário base.
 
 ![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP4)
+
+
+## Desafio 5:
+
+
+
+**Parte 1 – Transações de Banco de Dados.**
+
+Neste desafio você irá utilizar transações para executar modificações na base de dados.
+
+Entregável:
+
+    • Executar statements de consultas e modificações de dados persistidos no banco de dados via transações
+    
+
+**Parte 2 – Transações de Banco de Dados com procedure.**
+
+Neste desafio você irá criar um exemplo de transação com procedure.
+
+Entregável: 
+
+    • Procedure deve ter variáveis que receberão valores dos atributos e parâmetro para escolha da ação (inserção, modificação ou sair).
+    • Defina uma estrutura condicional para cada ação a ser executada.
+    • Implementar a verificação de erro, acarretando em um ROLLBACK total ou parcial (SAVEPOINT).
+  
+**Parte 3 – Backup & Recovery de Banco de Dados.**
+
+Neste desafio você realizará o backup e recovery do banco de dados.
+
+Entregável: 
+
+    • Utilize o mysqdump para realizar o backup e recovery do banco de dados e-commerce.
+    • Realize o backup de diferentes bancos de dados e insira os recursos como procedures, eventos e outros.
+    • Adicione o arquivo de backup ao github juntamente com o script
+
+![R E S O L U Ç Ã O:](https://github.com/adricbarros/DIO-SQL-Database-Specialist/tree/main/DP5)
