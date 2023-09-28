@@ -13,32 +13,41 @@
 ## Objetivos:
 
 
-**Parte 1 – Personalizando acessos com views para o cenário de Company**
+**Parte 1 – Transações de Banco de Dados com Mysql**
 
-Neste desafio você irá criar visões para os seguintes cenários:
+Entregável:
 
     • Executar statements de consultas e modificações de dados persistidos no banco de dados via transações
 
 
-
 **Parte 2 – Transações de Banco de Dados com Mysql**
 
-Neste desafio você irá criar um exemplo de transação com procedure
+Neste desafio você irá criar um exemplo de transação com procedure.
 
 Entregável: 
 
-    • Procedure deve ter variáveis que receberão valores dos atributos e parâmetro para escolha da ação ( inserção, modificação, ou sair)
-    • Defina uma estrutura condicional para cada ação a ser executada 
-
-    
+    • Procedure deve ter variáveis que receberão valores dos atributos e parâmetro para escolha da ação (inserção, modificação ou sair).
+    • Defina uma estrutura condicional para cada ação a ser executada.
+  
 **Parte 3 – Backup & Recovery de Banco de Dados**
 
-    • Realize o backup e recovery do banco de dados
+Neste desafio você realizará o backup e recovery do banco de dados.
+
+Entregável: 
+
+    • Utilize o mysqdump para realizar o backup e recovery do banco de dados ecommerce.
+    • Realize o backup de diferentes bancos de dados e insira os recursos como procedures, eventos e outros.
+    • Adicione o arquivo de backup ao github juntamente com o script
 
 
-## **Resolução - Parte 1:**
+## **Resolução:**
 
-**Personalizando acessos com Views**
+**Parte 1 – Transações de Banco de Dados com Mysql**
+
+**Parte 2 – Transações de Banco de Dados com procedures**
+
+**Parte 3 – Backup & Recovery de Banco de Dados**
+
 
 • Número de empregados por departamento e localidade
 
