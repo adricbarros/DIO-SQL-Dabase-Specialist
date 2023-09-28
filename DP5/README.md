@@ -15,7 +15,7 @@
 
 **Parte 1 – Transações de Banco de Dados.**
 
-Neste desafio você irá lidar com transações para executar modificações na base de dados
+Neste desafio você irá utilizar transações para executar modificações na base de dados.
 
 Entregável:
 
@@ -47,9 +47,32 @@ Entregável:
 
 **Parte 1 – Transações de Banco de Dados.**
 
-<img src="images/transaction_queries.png" align='center' alt="drawing" width="1095" heigth="411"/>
+<img src="images/transaction_queries.png" align='center' alt="drawing" width="500" heigth="350"/>
+
 
 **Parte 2 – Transações de Banco de Dados com procedures.**
+
+• Tabela de Clientes antes das alterações da Procedure.
+
+<img src="images/Procedure_transaction_0.png" align='center' alt="drawing" width="500" heigth="350"/>
+
+
+• Inserção de dados na tabela de Clientes via Transaction com procedures.
+
+<img src="images/Procedure_transaction_1.png" align='center' alt="drawing" width="500" heigth="350"/>
+
+<img src="images/Procedure_transaction_2.png" align='center' alt="drawing" width="500" heigth="390"/>
+
+
+• Alteração de dados na tabela de Clientes via Transaction com procedures.
+
+<img src="images/Procedure_transaction_3.png" align='center' alt="drawing" width="1095" heigth="411"/>
+
+• Consulta de dados persistidos na tabela de Clientes via Transaction com procedures.
+
+<img src="images/Procedure_transaction_4.png" align='center' alt="drawing" width="1095" heigth="411"/>
+
+
 
 **Parte 3 – Backup & Recovery de Banco de Dados.**
 
