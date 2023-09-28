@@ -57,11 +57,11 @@ Entregável:
 <img src="images/Procedure__transaction_0.png" align='center' alt="drawing" width="500" heigth="350"/>
 
 
-• Inserção de dados na tabela de Clientes via Transaction com procedures.
+• Inserção de dados na tabela de Clientes.
 
 <img src="images/Procedure__transaction_1.png" align='center' alt="drawing" width="500" heigth="350"/>
 
-• Consulta de dados persistidos na tabela de Clientes via Transaction com procedures.
+• Consulta de dados persistidos na tabela de Clientes.
 
 <img src="images/Procedure__transaction_2.png" align='center' alt="drawing" width="500" heigth="390"/>
 
@@ -70,12 +70,12 @@ Entregável:
 
 <img src="images/Procedure__transaction_3.png" align='center' alt="drawing" width="500" heigth="350"/>
 
-• Consulta de dados persistidos na tabela de Clientes via Transaction com procedures.
+• Consulta de dados persistidos após alteração na tabela de Clientes.
 
 <img src="images/Procedure__transaction_4.png" align='center' alt="drawing" width="500" heigth="350"/>
 
 
-• Verificação de erro após inserção de dados duplicados de Cliente(CPF) via Transaction com procedures.
+• Verificação de erro após inserção de dados duplicados de Cliente(CPF).
 
 <img src="images/Procedure_transaction_5.png" align='center' alt="drawing" width="500" heigth="350"/>
 
