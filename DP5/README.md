@@ -47,7 +47,7 @@ Entregável:
 
 **Parte 1 – Transações de Banco de Dados.**
 
-<img src="images/transaction_queries.png" align='center' alt="drawing" width="500" heigth="350"/>
+<img src="images/transaction_queries.png" align='center' alt="drawing" width="1095" heigth="411"/>
 
 
 **Parte 2 – Transações de Banco de Dados com procedures.**
@@ -84,11 +84,13 @@ Entregável:
 **Parte 3 – Backup & Recovery de Banco de Dados.**
 
 
-• Número de empregados por departamento e localidade
+• Backup e recovery do banco de dados ecommerce com mysqdump. 
 
-<img src="images/employee_location.png" align='center' alt="drawing" width="246" heigth="130"/>
+<img src="images/Backup_ecommerce.png" align='center' alt="drawing" width="979" heigth="350"/>
 
+• Backup do banco de dados company com os recursos: procedures, triggers e outros com mysqldump. 
 
+<img src="images/Backup_company.png" align='center' alt="drawing" width="979" heigth="350"/>
 
 ## Source Files:
   
