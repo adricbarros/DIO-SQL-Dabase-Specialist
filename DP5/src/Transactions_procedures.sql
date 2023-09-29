@@ -56,7 +56,7 @@ BEGIN
 		SELECT 'Erro na transação' AS "MENSAGEM DO SISTEMA";
 	END IF;
     ELSEIF opcao_P = 2 then -- #OPÇÃO 2: ALTERA OS DADOS DO CLIENTE EXCETO CPF
-	   START TRANSACTION;
+	START TRANSACTION;
         UPDATE clients SET Fname = fname_p, Minit = minit_p, Lname = lname_p, Address = address_p WHERE cpf = cpf_p;
         IF erro_proc_client_trx = FALSE THEN
 		COMMIT;
