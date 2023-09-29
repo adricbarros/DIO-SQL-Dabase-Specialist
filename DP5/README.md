@@ -84,9 +84,18 @@ Entregável:
 **Parte 3 – Backup & Recovery de Banco de Dados.**
 
 
-• Backup do banco de dados ecommerce com mysqdump. 
+• Backup do banco de dados Ecommerce com mysqdump. 
 
 <img src="images/Backup_ecommerce.png" align='center' alt="drawing" width="979" heigth="350"/>
+
+• Recovery do banco de dados Company com MySQL. 
+
+        • Recovery importado para o banco Company_teste para verificação de compatibilidade do script
+          gerado com o SGBD utilizado (MariaDb 10.2). O script foi executado com sucesso.
+
+<img src="images/Recovery_company_0.png" align='center' alt="drawing" width="979" heigth="350"/>
+
+<img src="images/Recovery_company_1.png" align='center' alt="drawing" width="791" heigth="465"/>
 
 • Backup do banco de dados company com os recursos: procedures, triggers e outros com mysqldump. 
 
